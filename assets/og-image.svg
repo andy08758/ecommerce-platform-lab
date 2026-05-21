@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="開店平台研究院社群縮圖">
+  <defs>
+    <linearGradient id="hero" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset=".48" stop-color="#EEF6FF"/>
+      <stop offset="1" stop-color="#DCEBFF"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="120" y1="80" x2="1040" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2C7DFF"/>
+      <stop offset="1" stop-color="#0B1F44"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#1D66FF" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#hero)"/>
+  <circle cx="1006" cy="116" r="170" fill="#FFFFFF" opacity=".5"/>
+  <circle cx="1092" cy="520" r="260" fill="#FFFFFF" opacity=".45"/>
+  <path d="M792 92h250c34 0 62 28 62 62v286c0 34-28 62-62 62H792c-34 0-62-28-62-62V154c0-34 28-62 62-62Z" fill="#FFFFFF" filter="url(#shadow)"/>
+  <path d="M790 92h252c34 0 62 28 62 62v74H730v-74c0-34 28-62 60-62Z" fill="url(#blue)"/>
+  <circle cx="790" cy="160" r="16" fill="#BFD8FF"/>
+  <circle cx="842" cy="160" r="16" fill="#FFFFFF" opacity=".85"/>
+  <circle cx="894" cy="160" r="16" fill="#FFFFFF" opacity=".55"/>
+  <g fill="none" stroke="#D8E7FA" stroke-width="3">
+    <path d="M780 282h274"/>
+    <path d="M780 350h274"/>
+    <path d="M780 418h274"/>
+  </g>
+  <g>
+    <rect x="784" y="262" width="70" height="38" rx="9" fill="#EAF3FF"/>
+    <rect x="784" y="330" width="70" height="38" rx="9" fill="#EAF3FF"/>
+    <rect x="784" y="398" width="70" height="38" rx="9" fill="#EAF3FF"/>
+    <path d="M880 281h128M880 349h104M880 417h142" stroke="#173B70" stroke-width="12" stroke-linecap="round" opacity=".72"/>
+  </g>
+  <path d="M874 218 988 504" stroke="#1D66FF" stroke-width="18" stroke-linecap="round" opacity=".08"/>
+  <rect x="96" y="82" width="92" height="92" rx="24" fill="url(#blue)"/>
+  <circle cx="138" cy="128" r="24" fill="#FFFFFF" opacity=".96"/>
+  <path d="M155 145 178 168" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+  <text x="138" y="138" text-anchor="middle" font-family="'Noto Sans TC', 'PingFang TC', system-ui, sans-serif" font-size="32" font-weight="900" fill="#0B1F44">研</text>
+  <text x="214" y="118" font-family="'Noto Sans TC', 'PingFang TC', system-ui, sans-serif" font-size="34" font-weight="900" fill="#0B1F44">開店平台研究院</text>
+  <text x="96" y="258" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="74" font-weight="900" fill="#0B1F44">台灣開店平台</text>
+  <text x="96" y="348" font-family="'Noto Serif TC', 'Songti TC', Georgia, serif" font-size="74" font-weight="900" fill="#0B1F44">怎麼選？</text>
+  <text x="96" y="424" font-family="'Noto Sans TC', 'PingFang TC', system-ui, sans-serif" font-size="30" font-weight="700" fill="#52647C">先比較年費、抽成、功能、顧問服務與成長彈性</text>
+  <g>
+    <rect x="96" y="482" width="148" height="54" rx="12" fill="#1D66FF"/>
+    <text x="170" y="518" text-anchor="middle" font-family="'Noto Sans TC', 'PingFang TC', system-ui, sans-serif" font-size="24" font-weight="900" fill="#FFFFFF">0% 抽成</text>
+    <rect x="260" y="482" width="154" height="54" rx="12" fill="#FFFFFF" stroke="#D9E7F8" stroke-width="2"/>
+    <text x="337" y="518" text-anchor="middle" font-family="'Noto Sans TC', 'PingFang TC', system-ui, sans-serif" font-size="24" font-weight="900" fill="#0B1F44">功能比較</text>
+    <rect x="430" y="482" width="154" height="54" rx="12" fill="#FFFFFF" stroke="#D9E7F8" stroke-width="2"/>
+    <text x="507" y="518" text-anchor="middle" font-family="'Noto Sans TC', 'PingFang TC', system-ui, sans-serif" font-size="24" font-weight="900" fill="#0B1F44">換站試算</text>
+  </g>
+</svg>

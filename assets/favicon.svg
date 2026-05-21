@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="開店平台研究院">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2C7DFF"/>
+      <stop offset="1" stop-color="#0B1F44"/>
+    </linearGradient>
+    <linearGradient id="lens" x1="23" y1="19" x2="48" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DCEBFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)"/>
+  <circle cx="31" cy="29" r="15" fill="url(#lens)" opacity=".96"/>
+  <path d="M41.6 40.2 51 49.6" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+  <path d="M41.6 40.2 51 49.6" stroke="#0B1F44" stroke-width="3.2" stroke-linecap="round" opacity=".8"/>
+  <text x="31" y="35.5" text-anchor="middle" font-family="'Noto Sans TC', 'PingFang TC', system-ui, sans-serif" font-size="21" font-weight="900" fill="#0B1F44">研</text>
+  <path d="M16 16h9M16 22h6M43 15h5M46 18v-5" stroke="#CDE1FF" stroke-width="2.5" stroke-linecap="round" opacity=".9"/>
+</svg>
