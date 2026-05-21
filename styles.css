@@ -1123,6 +1123,23 @@ footer p {
   font-size: clamp(38px, 5vw, 64px);
 }
 
+.article-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.article-meta span {
+  padding: 8px 12px;
+  background: var(--sky);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 800;
+}
+
 .article-cover {
   overflow: hidden;
   margin: 28px 0;
@@ -1141,7 +1158,8 @@ footer p {
 .article-summary,
 .toc,
 .article-faq,
-.article-callout {
+.article-callout,
+.related-reading {
   margin: 28px 0;
   padding: 22px;
   background: var(--sky);
@@ -1154,6 +1172,53 @@ footer p {
   margin-bottom: 0;
   color: var(--muted);
   font-size: 18px;
+  font-weight: 700;
+}
+
+.related-reading {
+  background: #ffffff;
+  box-shadow: var(--shadow);
+}
+
+.related-reading h2 {
+  margin-top: 0;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.related-grid a {
+  display: grid;
+  gap: 8px;
+  padding: 18px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.related-grid a:hover {
+  border-color: rgba(20, 99, 233, 0.35);
+  transform: translateY(-2px);
+}
+
+.related-grid span {
+  color: var(--teal);
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.related-grid strong {
+  color: var(--ink);
+  font-size: 18px;
+}
+
+.related-grid p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 15px;
   font-weight: 700;
 }
 
@@ -1234,6 +1299,7 @@ footer p {
     .compare-highlights,
     .scenario-grid,
     .editorial-policy,
+    .related-grid,
     .recommendation-grid,
   .calculator-inputs,
   .calculator-results,
