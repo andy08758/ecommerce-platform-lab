@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ecommerce-platform-lab.vercel.app/sitemap.xml
+Sitemap: https://www.ecomlab.tw/sitemap.xml
