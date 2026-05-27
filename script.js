@@ -281,6 +281,70 @@ function calculateSwitchSavings() {
   threeYearSaved.textContent = formatCurrency(netSaved * 36);
 }
 
+function setupArticleTocHighlight() {
+  const tocLinks = document.querySelectorAll(".toc-card a, .article-content > .toc a");
+  if (!tocLinks.length) return;
+
+  const headingMap = new Map();
+  tocLinks.forEach((link) => {
+    const id = link.getAttribute("href")?.replace("#", "");
+    const heading = id ? document.getElementById(id) : null;
+    if (heading) {
+      const links = headingMap.get(id) || [];
+      links.push(link);
+      headingMap.set(id, links);
+    }
+  });
+
+  const headings = Array.from(headingMap.keys())
+    .map((id) => document.getElementById(id))
+    .filter(Boolean);
+
+  if (!headings.length) return;
+
+  const setActive = (id) => {
+    tocLinks.forEach((link) => {
+      const isActive = link.getAttribute("href") === `#${id}`;
+      link.classList.toggle("active", isActive);
+      if (isActive) {
+        link.setAttribute("aria-current", "true");
+      } else {
+        link.removeAttribute("aria-current");
+      }
+    });
+  };
+
+  const getCurrentHeading = () => {
+    const offset = 130;
+    let current = headings[0];
+    headings.forEach((heading) => {
+      if (heading.getBoundingClientRect().top - offset <= 0) {
+        current = heading;
+      }
+    });
+    return current.id;
+  };
+
+  let ticking = false;
+  const update = () => {
+    setActive(getCurrentHeading());
+    ticking = false;
+  };
+
+  window.addEventListener(
+    "scroll",
+    () => {
+      if (!ticking) {
+        window.requestAnimationFrame(update);
+        ticking = true;
+      }
+    },
+    { passive: true },
+  );
+
+  update();
+}
+
 filterButtons.forEach((button) => {
   button.addEventListener("click", () => {
     filterButtons.forEach((item) => item.classList.remove("active"));
@@ -308,3 +372,4 @@ if (goal) {
 renderRows();
 updateRecommendation();
 calculateSwitchSavings();
+setupArticleTocHighlight();
