@@ -973,6 +973,7 @@ tr:last-child td {
 }
 
 .content-grid article {
+  position: relative;
   overflow: hidden;
   padding: 0;
 }
@@ -1001,6 +1002,39 @@ tr:last-child td {
 
 .content-grid article p {
   margin-bottom: 24px;
+}
+
+.cover-label {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 2;
+  display: grid;
+  gap: 3px;
+  max-width: min(78%, 320px);
+  padding: 10px 13px;
+  color: white;
+  background: rgba(6, 31, 63, 0.82);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 9px;
+  box-shadow: 0 16px 34px rgba(6, 31, 63, 0.2);
+  backdrop-filter: blur(12px);
+}
+
+.cover-label small {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.cover-label strong {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 950;
+  line-height: 1.25;
 }
 
 .faq-section {
@@ -1289,6 +1323,7 @@ footer p {
 }
 
 .article-cover {
+  position: relative;
   overflow: hidden;
   margin: 28px 0;
   border: 1px solid var(--line);
@@ -1301,6 +1336,18 @@ footer p {
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
+}
+
+.article-cover .cover-label {
+  top: auto;
+  bottom: 22px;
+  left: 22px;
+  max-width: min(72%, 420px);
+  padding: 13px 16px;
+}
+
+.article-cover .cover-label strong {
+  font-size: clamp(20px, 2.4vw, 30px);
 }
 
 .article-summary,
@@ -1443,6 +1490,31 @@ footer p {
   .hero {
     grid-template-columns: 1fr;
     min-height: auto;
+  }
+
+  .cover-label {
+    top: 12px;
+    left: 12px;
+    max-width: calc(100% - 24px);
+    padding: 8px 10px;
+  }
+
+  .cover-label small {
+    font-size: 10px;
+  }
+
+  .cover-label strong {
+    font-size: 15px;
+  }
+
+  .article-cover .cover-label {
+    bottom: 14px;
+    left: 14px;
+    max-width: calc(100% - 28px);
+  }
+
+  .article-cover .cover-label strong {
+    font-size: 18px;
   }
 
   .article-layout.with-sidebar {
