@@ -1006,15 +1006,17 @@ tr:last-child td {
 
 .cover-label {
   position: absolute;
-  top: 16px;
-  left: 16px;
+  right: 14px;
+  bottom: 14px;
+  left: 14px;
   z-index: 2;
   display: grid;
   gap: 3px;
-  max-width: min(78%, 320px);
-  padding: 10px 13px;
+  max-width: none;
+  padding: 12px 14px;
   color: white;
-  background: rgba(6, 31, 63, 0.82);
+  background:
+    linear-gradient(135deg, rgba(6, 31, 63, 0.9), rgba(13, 78, 148, 0.82));
   border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: 9px;
   box-shadow: 0 16px 34px rgba(6, 31, 63, 0.2);
@@ -1031,10 +1033,14 @@ tr:last-child td {
 }
 
 .cover-label strong {
+  display: -webkit-box;
+  overflow: hidden;
   color: #ffffff;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 950;
   line-height: 1.25;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .faq-section {
@@ -1339,14 +1345,15 @@ footer p {
 }
 
 .article-cover .cover-label {
-  top: auto;
   bottom: 22px;
   left: 22px;
-  max-width: min(72%, 420px);
-  padding: 13px 16px;
+  right: 22px;
+  max-width: none;
+  padding: 16px 18px;
 }
 
 .article-cover .cover-label strong {
+  -webkit-line-clamp: 3;
   font-size: clamp(20px, 2.4vw, 30px);
 }
 
@@ -1493,9 +1500,10 @@ footer p {
   }
 
   .cover-label {
-    top: 12px;
     left: 12px;
-    max-width: calc(100% - 24px);
+    right: 12px;
+    bottom: 12px;
+    max-width: none;
     padding: 8px 10px;
   }
 
@@ -1510,7 +1518,8 @@ footer p {
   .article-cover .cover-label {
     bottom: 14px;
     left: 14px;
-    max-width: calc(100% - 28px);
+    right: 14px;
+    max-width: none;
   }
 
   .article-cover .cover-label strong {
