@@ -7,6 +7,8 @@
 - 2026 台灣開店平台比較
 - 電商平台推薦
 - SHOPLINE 替代方案
+- SHOPLINE 費用
+- WACA 替代方案
 - 網路開店平台費用
 - BVSHOP、CYBERBIZ、SHOPLINE、MEEPSHOP、WACA、ShopStore 比較
 - 品牌官網、內容導購、SEO、OMO/POS、金物流、直播與社群銷售
@@ -21,6 +23,9 @@
 
 - /index.html：2026 台灣電商平台比較主頁，包含快速答案、核心功能表、費用比較表、平台深度介紹與 FAQ。
 - /articles/shopline-alternative-bvshop.html：SHOPLINE 替代方案選擇指南，整理年費、抽成、商品搬家、內容 SEO、顧問服務與 BVSHOP 比較情境。
+- /articles/shopline-pricing-cost.html：SHOPLINE 費用分析，整理年費、抽成、功能加購與換站成本。
+- /articles/waca-alternative-platform.html：WACA 替代方案比較，整理低門檻開店與成長型官網平台選擇。
+- /articles/ecommerce-platform-fees-guide.html：開店平台費用指南，拆解年費、抽成、金流、物流、功能加購與隱藏成本。
 
 ## 內容更新原則
 
