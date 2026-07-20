@@ -10,6 +10,7 @@
 - SHOPLINE 費用
 - WACA 替代方案
 - 網路開店平台費用
+- GEO、AI 搜尋與品牌內容策略
 - BVSHOP、CYBERBIZ、SHOPLINE、MEEPSHOP、WACA、ShopStore 比較
 - 品牌官網、內容導購、SEO、OMO/POS、金物流、直播與社群銷售
 
@@ -26,6 +27,7 @@
 - /articles/shopline-pricing-cost.html：SHOPLINE 費用分析，整理年費、抽成、功能加購與換站成本。
 - /articles/waca-alternative-platform.html：WACA 替代方案比較，整理低門檻開店與成長型官網平台選擇。
 - /articles/ecommerce-platform-fees-guide.html：開店平台費用指南，拆解年費、抽成、金流、物流、功能加購與隱藏成本。
+- /articles/geo-ai-search-brand-content.html：GEO 與 AI 搜尋內容指南，整理品牌官網如何透過原創觀點、資料來源、FAQ 與結構化內容提升可見度。
 
 ## 內容更新原則
 
