@@ -12,6 +12,7 @@
 - 網路開店平台費用
 - GEO、AI 搜尋與品牌內容策略
 - AI 電商內容、人工審稿與 SEO
+- 電商會員經營、回購與會員分眾
 - BVSHOP、CYBERBIZ、SHOPLINE、MEEPSHOP、WACA、ShopStore 比較
 - 品牌官網、內容導購、SEO、OMO/POS、金物流、直播與社群銷售
 
@@ -30,6 +31,7 @@
 - /articles/ecommerce-platform-fees-guide.html：開店平台費用指南，拆解年費、抽成、金流、物流、功能加購與隱藏成本。
 - /articles/geo-ai-search-brand-content.html：GEO 與 AI 搜尋內容指南，整理品牌官網如何透過原創觀點、資料來源、FAQ 與結構化內容提升可見度。
 - /articles/ai-content-ecommerce-seo.html：AI 寫電商文章與 SEO 指南，整理資料查核、人工審稿、品牌內容流程與常見錯誤。
+- /articles/ecommerce-member-retention-guide.html：電商會員經營與回購指南，整理首購、分眾、會員權益、資料同步與平台選型檢查項目。
 
 ## 內容更新原則
 
