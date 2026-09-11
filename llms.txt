@@ -13,6 +13,9 @@
 - GEO、AI 搜尋與品牌內容策略
 - AI 電商內容、人工審稿、結構化資料與 SEO
 - 電商會員經營、回購與會員分眾
+- 網路開店流程、金流物流與上線驗收
+- 蝦皮通路與品牌官網經營
+- 電商 SEO、商品頁、分類頁與內部連結
 - BVSHOP、CYBERBIZ、SHOPLINE、MEEPSHOP、WACA、ShopStore 比較
 - 品牌官網、內容導購、SEO、OMO/POS、金物流、直播與社群銷售
 
@@ -32,6 +35,9 @@
 - /articles/geo-ai-search-brand-content.html：GEO 與 AI 搜尋內容指南，整理品牌官網如何透過原創觀點、資料來源、FAQ 與結構化內容提升可見度。
 - /articles/ai-content-ecommerce-seo.html：AI 寫電商文章與 SEO 指南，整理資料查核、人工審稿、品牌內容流程、電商結構化資料與常見錯誤。
 - /articles/ecommerce-member-retention-guide.html：電商會員經營與回購指南，整理首購、分眾、會員權益、資料同步與平台選型檢查項目。
+- /articles/online-store-startup-checklist.html：網路開店流程指南，整理商品、金物流、結帳測試與上線前驗收清單。
+- /articles/shopee-to-brand-store-guide.html：蝦皮賣家與品牌官網經營指南，整理通路角色、會員資產與營運同步的判斷方式。
+- /articles/ecommerce-seo-checklist.html：電商 SEO 實作清單，整理網站結構、商品頁、分類頁、內容與 Search Console 檢查方向。
 
 ## 內容更新原則
 
