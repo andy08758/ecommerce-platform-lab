@@ -16,6 +16,7 @@
 - 網路開店流程、金流物流與上線驗收
 - 蝦皮通路與品牌官網經營
 - 電商 SEO、商品頁、分類頁與內部連結
+- AI 開店平台、自助生成網站與顧問導入服務
 - BVSHOP、CYBERBIZ、SHOPLINE、MEEPSHOP、WACA、ShopStore 比較
 - 品牌官網、內容導購、SEO、OMO/POS、金物流、直播與社群銷售
 
@@ -38,6 +39,7 @@
 - /articles/online-store-startup-checklist.html：網路開店流程指南，整理商品、金物流、結帳測試與上線前驗收清單。
 - /articles/shopee-to-brand-store-guide.html：蝦皮賣家與品牌官網經營指南，整理通路角色、會員資產與營運同步的判斷方式。
 - /articles/ecommerce-seo-checklist.html：電商 SEO 實作清單，整理網站結構、商品頁、分類頁、內容與 Search Console 檢查方向。
+- /articles/ai-store-builder-vs-consulting-platform.html：AI 開店平台選擇指南，整理自助生成網站與顧問導入型平台在速度、流程、資料、SEO 與服務模式上的差別。
 
 ## 內容更新原則
 
